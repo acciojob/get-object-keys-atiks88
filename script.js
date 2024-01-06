@@ -1,14 +1,11 @@
-//your JS code here. If required.
 let student = {
-	name:atik;
-}
-
-
-
-object.prototype.getKeys=function(){
-	return Object.keys(this);
+  name: 'atik', // Corrected the syntax for the value
 };
 
-let key = student.getKeys();
+Object.prototype.getKeys = function () {
+  return Object.keys(this);
+};
 
-console.log(key);
+let keys = student.getKeys();
+
+console.log(keys);
